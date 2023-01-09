@@ -1,6 +1,9 @@
 <template>
-    <div>
-        <h1>Main</h1>
+    <div class="main-container">
+        <section class="content-banner wrapper">
+            <h1>--> Content goes here</h1>
+        </section>
+        <nav class="blue-banner"></nav>
     </div>
 </template>
 
@@ -9,6 +12,30 @@ export default {
 
 }
 </script>
-<style lang="">
-    
+<style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
+
+.main-container {
+    background-color: $nav-main-color;
+}
+
+.content-banner {
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        color: $white-text-color;
+        margin-left: 1rem;
+    }
+}
+
+.blue-banner {
+    height: 180px;
+    background-color: $blue-banner;
+}
+
+.info {
+    background-image: url();
+}
 </style>
