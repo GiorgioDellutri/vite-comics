@@ -6,14 +6,8 @@ import AppMain from './components/AppMain.vue';
 </script>
 
 <template>
-  <header>
-    <AppHeader />
-  </header>
-
-  <main>
-    <AppMain />
-  </main>
-
+  <AppHeader />
+  <AppMain />
   <AppFooter />
 </template>
 
