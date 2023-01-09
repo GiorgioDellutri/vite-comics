@@ -27,12 +27,14 @@ export default {
     h1 {
         color: $white-text-color;
         margin-left: 1rem;
+        font-size: 2rem;
     }
 }
 
 .blue-banner {
     height: 180px;
     background-color: $blue-banner;
+
 }
 
 .info {
