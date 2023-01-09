@@ -146,7 +146,7 @@ export default {
         justify-content: space-between;
 
         img {
-            padding: .4rem;
+            padding: .5rem;
         }
     }
 

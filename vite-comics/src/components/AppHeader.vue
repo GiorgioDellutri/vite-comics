@@ -58,13 +58,7 @@ div.header-container {
         display: flex;
         align-items: center;
 
-        a {
-            text-decoration: none;
-        }
-
         li {
-            margin: 1rem;
-            list-style-type: none;
             color: $nav-main-color;
         }
     }
