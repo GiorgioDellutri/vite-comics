@@ -36,8 +36,4 @@ export default {
     background-color: $blue-banner;
 
 }
-
-.info {
-    background-image: url();
-}
 </style>
