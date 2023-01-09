@@ -5,16 +5,36 @@
         </div>
         <nav>
             <ul>
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <a href="#">
+                    <li>CHARACTERS</li>
+                </a>
+                <a href="#">
+                    <li>COMICS</li>
+                </a>
+                <a href="#">
+                    <li>MOVIES</li>
+                </a>
+                <a href="#">
+                    <li>TV</li>
+                </a>
+                <a href="#">
+                    <li>GAMES</li>
+                </a>
+                <a href="#">
+                    <li>COLLECTIBLES</li>
+                </a>
+                <a href="#">
+                    <li>VIDEOS</li>
+                </a>
+                <a href="#">
+                    <li>FANS</li>
+                </a>
+                <a href="#">
+                    <li>NEWS</li>
+                </a>
+                <a href="#">
+                    <li>SHOP</li>
+                </a>
             </ul>
         </nav>
     </div>
@@ -25,6 +45,30 @@ export default {
 
 }
 </script>
-<style lang="scss">
 
+<style lang="scss">
+div.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav ul {
+        display: flex;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            margin: 1rem;
+            list-style-type: none;
+            color: $nav-main-color;
+        }
+    }
+}
+
+img {
+    padding: 10px;
+}
 </style>
