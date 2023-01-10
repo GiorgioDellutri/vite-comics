@@ -173,6 +173,8 @@ export default {
     height: 80px;
     background-color: $footer-second-bgcolor ;
     padding: 1rem;
+    z-index: 1;
+    position: relative;
 
     .wrapper {
         display: flex;
