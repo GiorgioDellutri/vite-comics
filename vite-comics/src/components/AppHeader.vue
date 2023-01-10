@@ -5,9 +5,7 @@
         </div>
         <nav>
             <ul>
-                <li v-for="navItem in navItems">
-                    {{ navItems.text }}
-                </li>
+                <li v-for="navItem in navItems">{{ navItem.text }}</li>
             </ul>
         </nav>
     </div>
