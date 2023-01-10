@@ -1,16 +1,3 @@
-<template>
-    <div class="header-container wrapper">
-        <div class="img-container">
-            <img src="../assets/dc-logo.png" alt="Dc logo">
-        </div>
-        <nav>
-            <ul>
-                <li v-for="navItem in navItems">{{ navItem.text }}</li>
-            </ul>
-        </nav>
-    </div>
-</template>
-
 <script>
 export default {
     data() {
@@ -71,6 +58,19 @@ export default {
     }
 }
 </script>
+
+<template>
+    <div class="header-container wrapper">
+        <div class="img-container">
+            <img src="../assets/dc-logo.png" alt="Dc logo">
+        </div>
+        <nav>
+            <ul>
+                <li v-for="navItem in navItems">{{ navItem.text }}</li>
+            </ul>
+        </nav>
+    </div>
+</template>
 
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
