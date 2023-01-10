@@ -35,7 +35,6 @@
                         <a href="">
                             <li>Shop DC Collectibles</li>
                         </a>
-
                     </ul>
                 </div>
                 <div>
@@ -79,19 +78,15 @@
                         <a href="">
                             <li>DC</li>
                         </a>
-
                         <a href="">
                             <li>MAD Magazine</li>
                         </a>
-
                         <a href="">
                             <li>DC Kids</li>
                         </a>
-
                         <a href="">
                             <li>DC Power visa</li>
                         </a>
-
                     </ul>
                 </section>
             </section>
