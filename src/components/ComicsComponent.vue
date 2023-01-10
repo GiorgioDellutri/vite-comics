@@ -23,11 +23,12 @@ export default {
         <!-- {{ thumb }} -- {{ price }} -- {{ series }} -- {{ type }} -->
         <p>{{ series }}</p>
     </div>
-    <div class="more-button">Load More</div>
 </template>
 
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
+
 div.comic-element {
     width: calc(100% / 6);
     padding: 1rem;
@@ -41,6 +42,5 @@ div.comic-element {
         color: white;
         text-transform: uppercase;
     }
-
 }
 </style>
