@@ -136,7 +136,6 @@ export default {
     .info-container {
         display: flex;
         padding-top: 2rem;
-        overflow: hidden;
 
         h1 {
             color: $white-text-color;
@@ -156,10 +155,6 @@ export default {
                 color: $list-text-footer-color-hover;
             }
         }
-    }
-
-    .img-container {
-        overflow: hidden;
     }
 
     img {
@@ -207,6 +202,5 @@ export default {
         color: $blue-banner;
         padding: 0 2rem;
     }
-
 }
 </style>
