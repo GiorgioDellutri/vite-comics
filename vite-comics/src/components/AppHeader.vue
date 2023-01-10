@@ -87,6 +87,7 @@ div.header-container {
         li {
             color: $nav-main-color;
             text-transform: uppercase;
+            font-weight: bolder;
 
             &:active,
             &:hover {
