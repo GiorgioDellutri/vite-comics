@@ -92,7 +92,8 @@ export default {
     </div>
     <div class="main-container">
         <section class="content-banner wrapper">
-            <ComicsComponent :imagePath="" : />
+            <ComicsComponent v-for="comicElement in comics" :thumb="comicElement.thumb" :price="comicElement.price"
+                :series="comicElement.series" :type="comicElement.type" />
         </section>
         <nav class="blue-banner"></nav>
     </div>
