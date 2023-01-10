@@ -92,6 +92,11 @@ export default {
     </div>
     <div class="main-container">
         <section class="content-banner wrapper">
+            <div class="tag-series">
+                <a href="#">
+                    <h4>Current Series</h4>
+                </a>
+            </div>
             <div class="comics">
                 <ComicsComponent v-for="comicElement in comics" :thumb="comicElement.thumb" :price="comicElement.price"
                     :series="comicElement.series" :type="comicElement.type" />
@@ -125,7 +130,6 @@ div.jumbotron {
 }
 
 .content-banner {
-    padding-top: 3rem;
     padding-bottom: 2rem;
     align-items: center;
 
@@ -134,20 +138,32 @@ div.jumbotron {
         flex-wrap: wrap;
     }
 
-    div.more-button {
+    div.more-button,
+    div.tag-series {
 
         text-align: center;
         margin: 0 auto;
         width: 190px;
         background-color: $blue-banner;
-
-        h4 {
-            margin-top: 2rem;
-            text-transform: uppercase;
-            padding: 1rem;
-            color: $white-text-color;
-        }
     }
+
+    h4 {
+        margin-top: 2rem;
+        text-transform: uppercase;
+        padding: 1rem;
+        color: $white-text-color;
+    }
+
+    div.tag-series {
+        width: 250px;
+        position: relative;
+        top: -66px;
+        left: -587px;
+    }
+}
+
+h4 {
+    font-size: 1.4rem
 }
 
 .blue-banner {
