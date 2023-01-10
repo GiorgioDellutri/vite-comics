@@ -5,34 +5,34 @@
                 <div>
                     <h1>Dc Comics</h1>
                     <ul>
-                        <a href="">
+                        <a href="#">
                             <li>Characters</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Comics</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Movies</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Tv</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Games</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Videos</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>News</li>
                         </a>
                     </ul>
                     <h1>Shop</h1>
                     <ul>
-                        <a href="">
+                        <a href="#">
                             <li>Shop</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Shop DC Collectibles</li>
                         </a>
                     </ul>
@@ -40,34 +40,34 @@
                 <div>
                     <h1>Dc</h1>
                     <ul>
-                        <a href="">
+                        <a href="#">
                             <li>Terms Of Use</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Pryvacy policy (New)</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>All Choises</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Advertising</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Jobs</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Subscriptions</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Talent Workshops</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>CPSC Certificates</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Shop Help</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>Contact Us</li>
                         </a>
                     </ul>
@@ -75,16 +75,16 @@
                 <section>
                     <h1>Sites</h1>
                     <ul>
-                        <a href="">
+                        <a href="#">
                             <li>DC</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>MAD Magazine</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>DC Kids</li>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <li>DC Power visa</li>
                         </a>
                     </ul>
