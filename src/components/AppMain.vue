@@ -96,6 +96,11 @@ export default {
                 <ComicsComponent v-for="comicElement in comics" :thumb="comicElement.thumb" :price="comicElement.price"
                     :series="comicElement.series" :type="comicElement.type" />
             </div>
+            <div class="more-button">
+                <a href="#">
+                    <h4>Load More</h4>
+                </a>
+            </div>
         </section>
     </div>
     <nav class="blue-banner"></nav>
@@ -114,21 +119,39 @@ div.jumbotron {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     background-color: $nav-main-color;
 }
 
 .content-banner {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     align-items: center;
 
     div.comics {
         display: flex;
         flex-wrap: wrap;
     }
+
+    div.more-button {
+
+        text-align: center;
+        margin: 0 auto;
+        width: 190px;
+        background-color: $blue-banner;
+
+        h4 {
+            margin-top: 2rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: $white-text-color;
+        }
+    }
 }
 
 .blue-banner {
     height: 160px;
     background-color: $blue-banner;
-
 }
 </style>
