@@ -5,42 +5,93 @@
                 <div>
                     <h1>Dc Comics</h1>
                     <ul>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>Tv</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
+                        <a href="">
+                            <li>Characters</li>
+                        </a>
+                        <a href="">
+                            <li>Comics</li>
+                        </a>
+                        <a href="">
+                            <li>Movies</li>
+                        </a>
+                        <a href="">
+                            <li>Tv</li>
+                        </a>
+                        <a href="">
+                            <li>Games</li>
+                        </a>
+                        <a href="">
+                            <li>Videos</li>
+                        </a>
+                        <a href="">
+                            <li>News</li>
+                        </a>
                     </ul>
                     <h1>Shop</h1>
                     <ul>
-                        <li>Shop</li>
-                        <li>Shop DC Collectibles</li>
+                        <a href="">
+                            <li>Shop</li>
+                        </a>
+                        <a href="">
+                            <li>Shop DC Collectibles</li>
+                        </a>
+
                     </ul>
                 </div>
                 <div>
                     <h1>Dc</h1>
                     <ul>
-                        <li>Terms Of Use</li>
-                        <li>Pryvacy policy (New)</li>
-                        <li>All Choises</li>
-                        <li>Advertising</li>
-                        <li>Jobs</li>
-                        <li>Subscriptions</li>
-                        <li>Talent Workshops</li>
-                        <li>CPSC Certificates</li>
-                        <li>Shop Help</li>
-                        <li>Contact Us</li>
+                        <a href="">
+                            <li>Terms Of Use</li>
+                        </a>
+                        <a href="">
+                            <li>Pryvacy policy (New)</li>
+                        </a>
+                        <a href="">
+                            <li>All Choises</li>
+                        </a>
+                        <a href="">
+                            <li>Advertising</li>
+                        </a>
+                        <a href="">
+                            <li>Jobs</li>
+                        </a>
+                        <a href="">
+                            <li>Subscriptions</li>
+                        </a>
+                        <a href="">
+                            <li>Talent Workshops</li>
+                        </a>
+                        <a href="">
+                            <li>CPSC Certificates</li>
+                        </a>
+                        <a href="">
+                            <li>Shop Help</li>
+                        </a>
+                        <a href="">
+                            <li>Contact Us</li>
+                        </a>
                     </ul>
                 </div>
                 <section>
                     <h1>Sites</h1>
                     <ul>
-                        <li>DC</li>
-                        <li>MAD Magazine</li>
-                        <li>DC Kids</li>
-                        <li>DC Power visa</li>
+                        <a href="">
+                            <li>DC</li>
+                        </a>
+
+                        <a href="">
+                            <li>MAD Magazine</li>
+                        </a>
+
+                        <a href="">
+                            <li>DC Kids</li>
+                        </a>
+
+                        <a href="">
+                            <li>DC Power visa</li>
+                        </a>
+
                     </ul>
                 </section>
             </section>
@@ -102,9 +153,13 @@ export default {
             margin-right: 30px;
         }
 
-        ul li {
+        ul a li {
             color: $list-text-footer-color;
             margin: .5rem 0;
+
+            &:hover {
+                color: $list-text-footer-color-hover;
+            }
         }
     }
 
@@ -132,7 +187,7 @@ export default {
 
     .sign-button {
         border: 3px solid $blue-banner;
-        padding: 0 .9rem;
+        padding: .6rem .9rem;
     }
 
     h1 {
