@@ -79,19 +79,27 @@ div.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 125px;
 
-    nav ul {
-        display: flex;
-        align-items: center;
+    nav {
+        height: 100%;
 
-        li {
-            color: $nav-main-color;
-            text-transform: uppercase;
-            font-weight: bolder;
+        ul {
+            display: flex;
+            align-items: center;
 
-            &:active,
-            &:hover {
-                color: $blue-banner;
+            li {
+                color: $nav-main-color;
+                text-transform: uppercase;
+                height: 100%;
+                font-weight: bolder;
+                line-height: 118px;
+
+                &:active,
+                &:hover {
+                    border-bottom: 6px solid $blue-banner;
+                    color: $blue-banner;
+                }
             }
         }
     }
