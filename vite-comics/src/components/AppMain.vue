@@ -1,4 +1,6 @@
 <template>
+    <div class="jumbotron">
+    </div>
     <div class="main-container">
         <section class="content-banner wrapper">
             <h1>--> Content goes here</h1>
@@ -14,6 +16,12 @@ export default {
 </script>
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
+
+div.jumbotron {
+    height: 400px;
+    background-image: url(../assets/jumbotron.jpg);
+    background-size: cover;
+}
 
 .main-container {
     background-color: $nav-main-color;
