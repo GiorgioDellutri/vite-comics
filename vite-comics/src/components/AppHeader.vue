@@ -85,6 +85,7 @@ div.header-container {
         height: 100%;
 
         ul {
+            height: 100%;
             display: flex;
             align-items: center;
 
