@@ -92,11 +92,13 @@ export default {
     </div>
     <div class="main-container">
         <section class="content-banner wrapper">
-            <ComicsComponent v-for="comicElement in comics" :thumb="comicElement.thumb" :price="comicElement.price"
-                :series="comicElement.series" :type="comicElement.type" />
+            <div class="comics">
+                <ComicsComponent v-for="comicElement in comics" :thumb="comicElement.thumb" :price="comicElement.price"
+                    :series="comicElement.series" :type="comicElement.type" />
+            </div>
         </section>
-        <nav class="blue-banner"></nav>
     </div>
+    <nav class="blue-banner"></nav>
 </template>
 
 
@@ -110,18 +112,17 @@ div.jumbotron {
 }
 
 .main-container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: $nav-main-color;
 }
 
 .content-banner {
-    height: 150px;
-    display: flex;
     align-items: center;
 
-    h1 {
-        color: $white-text-color;
-        margin-left: 1rem;
-        font-size: 2rem;
+    div.comics {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
