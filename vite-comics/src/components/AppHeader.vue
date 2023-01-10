@@ -5,36 +5,9 @@
         </div>
         <nav>
             <ul>
-                <a href="#">
-                    <li>CHARACTERS</li>
-                </a>
-                <a href="#">
-                    <li>COMICS</li>
-                </a>
-                <a href="#">
-                    <li>MOVIES</li>
-                </a>
-                <a href="#">
-                    <li>TV</li>
-                </a>
-                <a href="#">
-                    <li>GAMES</li>
-                </a>
-                <a href="#">
-                    <li>COLLECTIBLES</li>
-                </a>
-                <a href="#">
-                    <li>VIDEOS</li>
-                </a>
-                <a href="#">
-                    <li>FANS</li>
-                </a>
-                <a href="#">
-                    <li>NEWS</li>
-                </a>
-                <a href="#">
-                    <li>SHOP</li>
-                </a>
+                <li v-for="navItem in navItems">
+                    {{ navItems.text }}
+                </li>
             </ul>
         </nav>
     </div>
@@ -42,7 +15,62 @@
 
 <script>
 export default {
-
+    data() {
+        return {
+            navItems: [
+                {
+                    text: "characters",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "comics",
+                    url: "#",
+                    active: true,
+                },
+                {
+                    text: "movies",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "tv",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "games",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "collectibles",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "videos",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "fans",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "news",
+                    url: "#",
+                    active: false,
+                },
+                {
+                    text: "shop",
+                    url: "#",
+                    active: true,
+                }
+            ]
+        }
+    }
 }
 </script>
 
@@ -60,6 +88,12 @@ div.header-container {
 
         li {
             color: $nav-main-color;
+            text-transform: uppercase;
+
+            &:active,
+            &:hover {
+                color: $blue-banner;
+            }
         }
     }
 }
