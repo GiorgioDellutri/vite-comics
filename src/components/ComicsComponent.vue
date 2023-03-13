@@ -22,6 +22,7 @@ export default {
         <img :src="thumb" alt="thumb image">
         <!-- {{ thumb }} -- {{ price }} -- {{ series }} -- {{ type }} -->
         <p>{{ series }}</p>
+        <p>{{ price }}</p>
     </div>
 </template>
 
